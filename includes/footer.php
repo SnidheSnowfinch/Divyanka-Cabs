@@ -50,11 +50,9 @@
           showTestimonial(index);
         }
     
-        // Auto change every 4s
         setInterval(autoSlide, 4000);
     
-        // Dot click
-        dots.forEach((dot, i) => {
+       dots.forEach((dot, i) => {
           dot.addEventListener("click", () => {
             index = i;
             showTestimonial(index);
@@ -62,7 +60,6 @@
         });
 
        
-    // FAQ toggle script
     document.querySelectorAll('.faq-question').forEach(question => {
       question.addEventListener('click', () => {
         const faq = question.parentElement;
@@ -104,6 +101,27 @@
                 }
             });
         }
+        function showgallerySet(id) {
+      let galleries = document.querySelectorAll('.gallery-set');
+      let tabs = document.querySelectorAll('.tab-btn-img');
+
+      galleries.forEach(g => g.classList.remove('active'));
+      tabs.forEach(t => t.classList.remove('active'));
+
+      document.getElementById(id).classList.add('active');
+      event.target.classList.add('active');
+    }
+
+    function showSubgallerySet(id) {
+      let galleries = document.querySelectorAll('.sub-gallery-set');
+      let tabs = document.querySelectorAll('.gal-img');
+
+      galleries.forEach(g => g.classList.remove('active'));
+      tabs.forEach(t => t.classList.remove('active'));
+
+      document.getElementById(id).classList.add('active');
+      event.target.classList.add('active');
+    }
       </script>
 </body>
 
