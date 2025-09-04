@@ -33,7 +33,7 @@
         </div>
     </section>
 
-    <section class="div-container margin-top">
+    <section class="div-container margin-top-div">
         <section class="row ">
             <div class="col-lg-6 col-md06 col-sm-12 services">
                 <h2>We Provide Trusted Rental Service In The India</h2>

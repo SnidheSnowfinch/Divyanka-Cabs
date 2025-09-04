@@ -16,15 +16,23 @@
 
 <body>
 
-    <header>
-        <a href=""><img src="bootstrap/images/logo.png" class="logo" alt=""></a>
-        <nav>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Features</a></li>
-                <li><a href="#">Blog</a></li>
-            </ul>
-        </nav>
-        <a href="#" class="contact-btn">Contact Us</a>
-    </header>
+
+
+    <header class="navbar">
+    <a href=""><img src="bootstrap/images/logo.png" class="logo" alt=""></a>
+
+    <nav class="nav-links" id="navLinks">
+      <a href="#">Home</a>
+      <a href="#">Services</a>
+      <a href="#">Features</a>
+      <a href="#">Blog</a>
+      <button  class="contact-btn">Contact Us</button>
+    </nav>
+
+    <!-- Hamburger icon -->
+    <div class="menu-toggle" id="menuToggle">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </header>

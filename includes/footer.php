@@ -31,7 +31,17 @@
         </div>
         <div class="bottom">© 2024 Developed by Snowfinch Consulting Group</div>
       </footer>
+      <script  src="bootstrap/js/bootstrap.bundle.js"></script>
+
       <script>
+            const menuToggle = document.getElementById("menuToggle");
+    const navLinks = document.getElementById("navLinks");
+
+    menuToggle.addEventListener("click", () => {
+      menuToggle.classList.toggle("active");
+      navLinks.classList.toggle("active");
+    });
+
         let index = 0;
         const testimonials = document.querySelectorAll(".testimonial");
         const dots = document.querySelectorAll(".dot");
@@ -122,6 +132,7 @@
       document.getElementById(id).classList.add('active');
       event.target.classList.add('active');
     }
+ 
       </script>
 </body>
 

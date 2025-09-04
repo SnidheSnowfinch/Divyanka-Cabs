@@ -153,7 +153,7 @@
     <h6>OUR SERVICES</h6>
     <h2>Destinations</h2>
 
-    <div class="destinations">
+    <div class="destinations-card">
 
         <ul>
             <li>Tempo Traveller Rental Services in Pune</li>
